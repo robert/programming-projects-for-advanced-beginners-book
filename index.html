@@ -22,6 +22,17 @@ title: Robert Heaton
 </style>
 <div id="home">
   <div class="topic-box">
-    Hi
+    Hi ho ha
+    {% for chap in site.chapters %}
+    <li>
+      <a href="{{ chap.url }}">
+        {{ chap.title }}
+      </a>
+      haaa
+      <small class="muted">
+      </small>
+    </li>
+    {% endfor %}
+
   </div>
 </div>
