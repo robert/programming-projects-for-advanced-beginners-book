@@ -1,32 +1,15 @@
 <html>
   <head>
-    <title>{{ page.title }} | Robert Heaton</title>
+    <title>Project #{{page.chapter_number}} - {{ page.title }} | Robert Heaton</title>
     {% include header.html %}
   </head>
   <body>
     {% include navbar.html %}
     <div class='container site'>
       <section class='post blogpost'>
-        <h1 class='subject'><a href="{{page.url}}">{{ page.title }}</a></h1>
-        <div class='date muted'>{{ page.date | date_to_string }}</div>
+        <h1 style="font-size: 1.6em" class='subject'><a href="{{page.url}}">Project #{{page.chapter_number}} - {{ page.title }}</a></h1>
         {{ content }}
-        {% if page.hn %}
-          <a href="https://news.ycombinator.com/item?id={{ page.hn }}" target="_blank">Discussion on Hacker News</a>
-        {% endif %}
-        <div style="text-align: center; margin-bottom: 25px">
-          <a href="https://twitter.com/robjheaton">
-            Follow me on Twitter
-          </a>
-          or
-          <a href="/newsletter">
-            Subscribe via email
-          </a>
-        </div>
 
-        {% include related_posts.html %}
-        {% include recent_posts.html %}
-        <br/>
-        {% include rss.html %}
       </section>
     </div>
     {% include footer.html %}

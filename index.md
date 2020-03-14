@@ -1,12 +1,15 @@
 ---
 layout: static
-title: About
 ---
+## Here's the problem
+
 Almost all books, videos, and websites about learning programming are either too easy or too difficult.
 
 They assume that you are either a complete beginner who has never seen an if-statement before, or an advanced genius who has memorized every single technical definition in Wikipedia. But what if you're neither? What if you know most of the syntax and get the general idea, but don't know how to keep getting better? What if you're an *advanced beginner*?
 
 Why, you read *Programming Projects for Advanced Beginners* of course.
+
+([Read the book now][read])
 
 ## What is *Programming Projects for Advanced Beginners*?
 
@@ -17,6 +20,8 @@ By the end of the book, you'll have written twelve complex, satisfying programs,
 You'll understand advanced programming concepts that will make your code cleaner, more readable, and more modular. You'll know what those words actually mean and why they matter. You'll put these concepts into practice in your own project code as soon as you learn about them.
 
 You'll understand how to plan and structure your own projects. You'll understand how to split out your programs' logic into crisp, modular components. You'll understand automated testing. You'll understand `class`es. And whenever you program in the future you'll have a little version of me sitting on your shoulder, gently reminding you about your new good habits, asking you supportive questions, and generally being more fun and entertaining than all your other friends.
+
+([Read the book now][read])
 
 ## Who is Programming Projects for Advanced Beginners for?
 
@@ -35,9 +40,13 @@ How are you supposed to know whether the code you've written is any good? If you
 
 Some people have an inspiring friend, professor, or co-worker to show them the way. Now everyone else has *Programming Projects for Advanced Beginners*.
 
+([Read the book now][read])
+
 ## How to read it
 
 My goal is for *Programming Projects for Advanced Beginners* to be one of the best books ever written for people teaching themselves programming. I'm writing the book in the open and publishing it as I go so that I can get [rapid and repeated feedback][feedback] on it. You can [read the current version][read] online, and subscribe to my [Programming for Advanced Beginners newsletter][subscribe] for updates.
+
+([Read the book now][read])
 
 ## Who am I?
 

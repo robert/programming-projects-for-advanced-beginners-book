@@ -1,0 +1,52 @@
+---
+layout: index
+title: Book
+---
+<div id="home">
+  <div class="post blogpost">
+    <h1>Work in progress</h1>
+    <p>This book is a work in progress. For the love of god
+      <a href="/feedback">send me feedback</a>, and
+      <a href="/subscribe">subscribe for updates]</a>.
+    <h1>1. Introduction</h1>
+    <p>Coming soon...</p>
+    <!--
+    <ul style="list-style: none">
+      <li>
+        <a href="/book/why">Why I'm writing PPAB</a>
+      </li>
+      <li>
+        <a href="/book/how">How to read this book</a>
+      </li>
+    </ul>
+    -->
+
+    <h1>2. Projects</h1>
+    <ul>
+    {% for chap in site.chapters %}
+    <li style="list-style: none">
+      <a href="{{ chap.url }}">
+        {{chap.chapter_number}} - {{chap.title}}
+      </a>
+      -
+      <em>{{chap.description}}</em>
+    </li>
+    {% endfor %}
+    </ul>
+
+    <h1>3. Toolbox</h1>
+    <p>Coming soon...</p>
+    <!--
+    <ul style="list-style: none">
+      <li>
+      <a href="/glossary">
+        Glossary
+      </a>
+      -
+      <em>what words mean, in plain English</em>
+      </li>
+    </ul>
+    -->
+
+  </div>
+</div>
