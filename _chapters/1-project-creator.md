@@ -715,9 +715,10 @@ A rule-of-thumb that I like to use is that if I write a function that is 80% gen
 
 ## Extensions
 
-*We're done - congratulations! I haven't finished writing the extensions to this project yet (they're coming soon). Send me [an email][contact] if you got this far and I'll send you what I've written.*
+*We're done - congratulations! I haven't finished writing the extensions to this project yet (they're coming soon). Send me [an email][contact] if you got this far and I'll send you what I've written, or [subscribe to receive updates][subscribe].*
 
 {% endraw %}
 
 [contact]: /feedback
 [markdown]: https://daringfireball.net/projects/markdown/syntax#philosophy
+[subscribe]: /subscribe
